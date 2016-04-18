@@ -13,9 +13,9 @@ import React, {
 
 var Firebase = require('firebase');
 
-class FB_test extends Component{
-  consructor(props){
-    //super(props);
+class craze extends Component{
+  constructor(props){
+    super(props);
     var My_FB_test = new Firebase('https://intense-inferno-227.firebaseio.com/');
 
     My_FB_test.set({
@@ -25,7 +25,7 @@ class FB_test extends Component{
   }
 }
 
-class craze extends Component {
+/*class craze extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -35,14 +35,14 @@ class craze extends Component {
         <Text style={styles.instructions}>
           To get started, edit index.android.js
         </Text>
-        <Text style={styles.instructions}>
+        <Text style={styles.instructions} >
           Shake or press menu button for dev menu
         </Text>
       </View>
     );
   }
 }
-
+*/
 const styles = StyleSheet.create({
   container: {
     flex: 1,
